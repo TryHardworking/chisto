@@ -1,0 +1,115 @@
+{
+  "projectId": "chisto-demo",
+  "version": "demo-2026-11",
+  "currency": {
+    "code": "RUB",
+    "decimals": 2
+  },
+  "services": [
+    {
+      "id": "everyday",
+      "name": "Повседневная одежда"
+    },
+    {
+      "id": "outerwear",
+      "name": "Верхняя одежда"
+    },
+    {
+      "id": "shoes",
+      "name": "Чистка обуви"
+    },
+    {
+      "id": "delicate",
+      "name": "Костюмы и деликатные ткани"
+    },
+    {
+      "id": "textile",
+      "name": "Домашний текстиль"
+    },
+    {
+      "id": "complex",
+      "name": "Несколько направлений"
+    },
+    {
+      "id": "consultation",
+      "name": "Консультация"
+    }
+  ],
+  "items": [
+    {
+      "id": "shirt",
+      "name": "Рубашка",
+      "serviceId": "everyday",
+      "priceMinor": 45000
+    },
+    {
+      "id": "trousers",
+      "name": "Брюки",
+      "serviceId": "everyday",
+      "priceMinor": 60000
+    },
+    {
+      "id": "sweater",
+      "name": "Свитер",
+      "serviceId": "everyday",
+      "priceMinor": 70000
+    },
+    {
+      "id": "dress",
+      "name": "Платье",
+      "serviceId": "delicate",
+      "priceMinor": 95000
+    },
+    {
+      "id": "suit",
+      "name": "Костюм, 2 предмета",
+      "serviceId": "delicate",
+      "priceMinor": 140000
+    },
+    {
+      "id": "coat",
+      "name": "Пальто",
+      "serviceId": "outerwear",
+      "priceMinor": 150000
+    },
+    {
+      "id": "jacket",
+      "name": "Куртка",
+      "serviceId": "outerwear",
+      "priceMinor": 120000
+    },
+    {
+      "id": "down-jacket",
+      "name": "Пуховик",
+      "serviceId": "outerwear",
+      "priceMinor": 170000
+    },
+    {
+      "id": "sneakers",
+      "name": "Кроссовки, пара",
+      "serviceId": "shoes",
+      "priceMinor": 90000
+    },
+    {
+      "id": "leather-shoes",
+      "name": "Кожаная обувь, пара",
+      "serviceId": "shoes",
+      "priceMinor": 110000
+    },
+    {
+      "id": "blanket",
+      "name": "Плед",
+      "serviceId": "textile",
+      "priceMinor": 110000
+    },
+    {
+      "id": "duvet",
+      "name": "Одеяло",
+      "serviceId": "textile",
+      "priceMinor": 140000
+    }
+  ],
+  "maxQuantity": 20,
+  "maxTotalQuantity": 240,
+  "maxLines": 20
+}

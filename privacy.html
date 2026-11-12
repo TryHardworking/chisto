@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#193D35" />
+    <meta name="description" content="Как работает форма и что происходит с данными в демонстрационном сайте вымышленного бренда ЧИСТО. Отправка заявок и хранение данных не подключены." />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="ru_RU" />
+    <meta property="og:title" content="ЧИСТО — прозрачность и конфиденциальность" />
+    <meta property="og:description" content="Информация о данных в демонстрационной версии сайта. ЧИСТО — вымышленный бренд." />
+    <meta property="og:image" content="assets/images/social-cover.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="ЧИСТО — концепция бережного ухода за любимыми вещами" />
+    <title>Конфиденциальность демоверсии — ЧИСТО</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/config.js" defer></script>
+    <script src="js/app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Перейти к содержимому</a>
+    <svg class="icon-sprite" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><symbol id="i-arrow-up" viewBox="0 0 24 24"><path d="M6 18 18 6M6 6h12v12" /></symbol><symbol id="i-flower" viewBox="0 0 64 64"><path d="M32 32C13 34 13 10 27 14c8 2 6 11 5 18ZM32 32C30 13 54 13 50 27c-2 8-11 6-18 5ZM32 32C51 30 51 54 37 50c-8-2-6-11-5-18ZM32 32C34 51 10 51 14 37c2-8 11-6 18-5Z" /></symbol></svg>
+    <div class="demo-bar" role="region" aria-label="О демонстрационном сайте"><div class="container demo-bar__inner"><span><span class="status-dot" aria-hidden="true"></span>Киров · концепция городского сервиса</span><span>Демонстрационный сайт вымышленного бренда</span></div></div>
+    <header class="site-header" id="top"><div class="container header__inner"><a class="brand" href="index.html"><span class="brand__word">ЧИСТО<span class="brand__dot">.</span></span><span class="brand__caption">Химчистка и забота</span></a><nav class="desktop-nav" aria-label="Основная навигация"><a href="services.html">Услуги</a><a href="index.html#prices">Цены</a><a href="index.html#approach">Наш подход</a><a href="index.html#faq">Вопросы</a><a href="index.html#contacts">Контакты</a></nav><a class="button button--small header__cta" href="index.html#request">Оставить заявку<svg class="icon" aria-hidden="true"><use href="#i-arrow-up" /></svg></a><button class="menu-toggle" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="mobile-menu" hidden><span></span><span></span></button></div></header>
+    <dialog class="mobile-menu" id="mobile-menu" aria-label="Навигация"><div class="mobile-menu__top"><span class="brand__word">ЧИСТО.</span><button class="close-button" type="button" data-dialog-close aria-label="Закрыть меню">×</button></div><span class="eyebrow">Химчистка и забота · Киров</span><nav aria-label="Мобильная навигация"><a href="services.html">Услуги<span>01</span></a><a href="index.html#prices">Цены и расчёт<span>02</span></a><a href="index.html#approach">Наш подход<span>03</span></a><a href="index.html#faq">Вопросы<span>04</span></a><a href="index.html#contacts">Контакты<span>05</span></a></nav><a class="button" href="index.html#request">Оставить заявку<svg class="icon" aria-hidden="true"><use href="#i-arrow-up" /></svg></a><p class="small-note">Демонстрационный сайт вымышленного бренда.</p></dialog>
+    <main class="container" id="main">
+      <section class="page-intro" aria-labelledby="privacy-title"><nav class="breadcrumb" aria-label="Хлебные крошки"><a href="index.html">Главная</a><span aria-hidden="true">/</span><span aria-current="page">Конфиденциальность</span></nav><p class="eyebrow">Документ для демонстрационной версии · 11.11.2026</p><h1 id="privacy-title">Прозрачность —<br /><em>тоже забота.</em></h1><p>Что происходит с данными на этом сайте и что потребуется изменить перед запуском реального сервиса.</p></section>
+      <div class="legal-content">
+        <p class="legal-notice">«ЧИСТО» — вымышленный демонстрационный бренд. Этот сайт не представляет зарегистрированное предприятие, не принимает реальные заказы и не является публичной офертой. Не вводите реальные персональные данные при тестировании.</p>
+        <section aria-labelledby="legal-status"><h2 id="legal-status">1. Статус этого документа</h2><p>Это описание поведения демоверсии, а не готовая юридическая политика действующего предприятия. Реальный оператор персональных данных здесь не назначен. До коммерческого запуска необходимо подготовить документы для конкретного юридического лица и фактических процессов обработки.</p></section>
+        <section aria-labelledby="legal-fields"><h2 id="legal-fields">2. Какие поля есть в форме</h2><p>Форма содержит имя, телефон, направление ухода, необязательный комментарий и согласие. Выбранные в калькуляторе вещи и предварительная сумма также могут отображаться рядом с заявкой.</p><p>Поле согласия иллюстрирует интерфейс будущего сервиса. В текущей демоверсии отметка не запускает передачу данных какому-либо предприятию.</p></section>
+        <section aria-labelledby="legal-storage"><h2 id="legal-storage">3. Что происходит с введёнными значениями</h2><ul><li>Форма проверяет обязательные поля только в вашем браузере.</li><li>Отправка на сервер в конфигурации отключена. Нажатие кнопки не создаёт заказ и не отправляет сообщение.</li><li>Значения не записываются сайтом в cookies, localStorage, sessionStorage или аналитические сервисы.</li><li>Они остаются в полях открытой страницы. При обновлении или закрытии страницы сайт не обеспечивает сохранение.</li><li>Автозаполнение и восстановление формы самим браузером регулируются настройками вашего браузера, а не сайтом.</li></ul></section>
+        <section aria-labelledby="legal-technical"><h2 id="legal-technical">4. Технические данные и внешние сервисы</h2><p>Фотографии и шрифты находятся в проекте и не загружаются с внешних CDN во время просмотра. Аналитика, рекламные пиксели, виджеты мессенджеров и сторонние трекеры не подключены.</p><p>При размещении на хостинге провайдер может вести стандартные журналы запросов, в том числе адрес подключения и время запроса. Эти процессы зависят от выбранного размещения и должны быть описаны в документах реального оператора.</p><p>Телефон и кнопки Telegram / WhatsApp в демоверсии открывают пояснение о неподключённых контактах. Они не инициируют реальный звонок или сообщение.</p></section>
+        <section aria-labelledby="legal-launch"><h2 id="legal-launch">5. До подключения реальных заявок</h2><p>Владелец реального сервиса должен указать оператора, цели и правовые основания обработки, перечень данных, сроки хранения, порядок отзыва согласия и обращений, используемых обработчиков и меры защиты. Также необходимо проверить применимые требования российского законодательства.</p><p>После подключения обработчика форма передаёт версию согласия и клиентское время его подтверждения. Эти значения не доказывают юридическую достоверность согласия: сервер должен самостоятельно проверить актуальные условия, сохранить необходимые сведения и зафиксировать время приёма по собственным часам.</p><p>Подключение сервера в <code>js/config.js</code> меняет фактическое поведение формы. Эта демонстрационная страница и тексты интерфейса должны быть заменены согласованными документами до включения отправки.</p></section>
+        <a class="button" href="index.html#request">Вернуться к форме<svg class="icon" aria-hidden="true"><use href="#i-arrow-up" /></svg></a>
+      </div>
+    </main>
+    <footer class="site-footer"><div class="container"><div class="footer__top"><a class="footer__brand" href="index.html" aria-label="ЧИСТО — главная">ЧИСТО<span>.</span></a><p>Профессиональный уход.<br />Человеческое отношение.</p><svg class="footer__flower" aria-hidden="true"><use href="#i-flower" /></svg></div><div class="footer__bottom"><span>© 2026 ЧИСТО · Вымышленный демонстрационный бренд</span><a href="services.html">Все направления ухода</a><a href="index.html#prices">Прайс и калькулятор</a><a href="#top">Наверх ↑</a></div><p class="footer__disclaimer">Цены примерные. Отзывы вымышленные. Фотографии иллюстрационные. Реальные заказы и отправка данных не подключены.</p></div></footer>
+  </body>
+</html>
